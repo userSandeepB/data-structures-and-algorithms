@@ -6,7 +6,7 @@ Depending on the organization of the elements, data structures are classified in
 
 1. **Linear data structures**: Elements are accessed in a sequential order but it is not compulsory to store all element sequentially. Examples: Linked Lists, Stacks and Queues.
 
-2.**Non - linear data structures**: Elements of this data structure are stored/accessed in a non-linear order Examples: Trees and graphs.
+2. **Non - linear data structures**: Elements of this data structure are stored/accessed in a non-linear order Examples: Trees and graphs.
 
 # Big O
 
@@ -15,7 +15,7 @@ Imagine we have multiple implementation of the same function (problem), how can 
 > Write a function that calculates the sum of all numbers from 1 up to some number n.
 
 ```javascript
-// Implementation 1
+// Implementation 1: Complexity O(n)
 function addUpTo(n) {
   let total = 0;
   for (let i = 1; i <= n; i++) {
@@ -27,9 +27,12 @@ function addUpTo(n) {
 ```
 
 ```javascript
-// Implementation 2
-
+// Implementation 2: Complexity O(1)
 fucnton addUpTo(n) {
     return n * (n + 1) / 2;
 }
 ```
+
+**Big O Notation allow us to talk formally about how the runtime of an alogrithm grows as the input grows.**
+
+### Simplifying Big O Expression
