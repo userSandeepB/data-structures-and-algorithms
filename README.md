@@ -36,3 +36,17 @@ fucnton addUpTo(n) {
 **Big O Notation allow us to talk formally about how the runtime of an alogrithm grows as the input grows.**
 
 ### Simplifying Big O Expression
+
+O(2n) --> O(n)
+O(500) --> O(1)
+O(13n<sup>2</sup>) --> O(n<sup>2</sup>)
+O(n + 10) --> O(n)
+O(100n + 50) --> O(n)
+O(n<sup>2</sup> + 5n + 8) --> O(n<sup>2</sup>)
+
+### Big O Shorthand
+
+1. Arithmetic operations are constant
+2. Variable assignment is constant
+3. Accessing elements in an array (by index) or object (by key) is constant
+4. In a loop, the complexity is the length of loop times the complexity of whatever happens inside the loop
