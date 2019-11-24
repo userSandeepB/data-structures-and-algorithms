@@ -37,12 +37,12 @@ fucnton addUpTo(n) {
 
 ### Simplifying Big O Expression
 
-O(2n) --> O(n)
-O(500) --> O(1)
-O(13n<sup>2</sup>) --> O(n<sup>2</sup>)
-O(n + 10) --> O(n)
-O(100n + 50) --> O(n)
-O(n<sup>2</sup> + 5n + 8) --> O(n<sup>2</sup>)
+- O(2n) --> O(n)
+- O(500) --> O(1)
+- O(13n<sup>2</sup>) --> O(n<sup>2</sup>)
+- O(n + 10) --> O(n)
+- O(100n + 50) --> O(n)
+- O(n<sup>2</sup> + 5n + 8) --> O(n<sup>2</sup>)
 
 ### Big O Shorthand
 
