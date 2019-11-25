@@ -1,6 +1,6 @@
 # Data Structures
 
-Data structure is a particular way of storing abd organizing data in a computer so that it can be used efficiently. A data structure is a special format for organizing and storing data. General data structure types include arrays, files, linked lists, stacks, queues, trees, graphs and so on.
+Data structure is a particular way of storing and organizing data in a computer so that it can be used efficiently. A data structure is a special format for organizing and storing data. General data structure types include arrays, files, linked lists, stacks, queues, trees, graphs and so on.
 
 Depending on the organization of the elements, data structures are classified into two types:
 
@@ -50,3 +50,13 @@ fucnton addUpTo(n) {
 2. Variable assignment is constant
 3. Accessing elements in an array (by index) or object (by key) is constant
 4. In a loop, the complexity is the length of loop times the complexity of whatever happens inside the loop
+
+### Space Complexity
+
+So far, we've been focusing on **time complexity:** how we can analyze the runtime of an algorithm as the size of inputs increases. We can also use big O notation to analyze **space complexity:** how much additional memory do we need to allocate in order to run the code in our algorithm.
+
+**Rule of Thumb**:
+
+1. String is O(n)
+2. Object and Arrays are O(n)
+3. All variables are constant O(1)
